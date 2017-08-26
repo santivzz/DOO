@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<tittle> Santiago Vazquez </tittle>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	
+		<header>
+			<hgroup>
+				<h1>Informacion</h1>
+				<h2>Escolaridad</h2>
+			</hgroup>
+
+			<nav>
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Amigos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Biografia</a></li>
+				</ul>
+			</nav>
+
+			<nav>
+				<!-- lista html -->
+			</nav>
+
+			<article>
+ 				<header>
+  					<h1> FCFM </h1>
+ 				</header>
+
+ 				<p>
+  					Hola mi nombre es Santiago y soy estudiante
+ 				</p>
+
+ 				<section>
+  					<header>
+  						<h1>UNIBOOk</h1>
+  					</header>
+  					<p>
+  						UNIBOOK
+  					</p>
+ 				</section>
+
+ 				<section>
+
+  				<header>
+   					<h1>LSTI</h1>
+  				</header>
+
+  				<p class="next-to-aside">
+   					<mark>LSTI</mark>
+   					<br /> <!-- salto de lnea -->
+  				</p>
+
+  				<aside>
+   						<p>Facultad de ciencias fisico matematicas</p>
+  				</aside>
+
+  				<div>
+   					<button type="button" onClick="javascript:alert('Aqui no hay nada :v')">Bot�n 1</button>
+  				</div>
+
+  				<figure>
+   					<img src="logo.png" alt="Logo FCFM" width="200" height="100">
+   					<figcaption>Figura 1. Logo FCFM</figcaption>
+  				</figure>
+
+ 				</section>
+
+			</article>
+
+		</header>
+	</body>
+</html>
