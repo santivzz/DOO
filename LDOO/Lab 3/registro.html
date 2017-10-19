@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>Registro</h1>
+        <form action="registro" method="post">
+            
+            <label>Nombre Completo: <input type = "text" name ="nombre"><br>
+            <label>Mail: <input type ="text" name="correo"><br>
+            <label>Usuario: <input type="text" name="usuario"><br>
+            <label>Contraseña: <input type="password" name="contra"><br>
+            <label>Mes de nacimiento</label>
+                
+                <select name="mes">
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option selected value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>
+            
+            <label>Masculino: <input type="radio" name="gender" value="hombre" checked><br>
+            <label>Femenino: <input type="radio" name="gender" value="mujer" checked>    
+            <label>Soy mayor de edad: <input type="checkbox" name="edad"<br>    
+                <label>Acerca de mi:  <textarea rows="4" cols="50"></textarea><br>  
+         
+            <input type="submit" value="Enviar">
+            <input type= "reset" value="Borrar" document.forms.reset();>  
+
+        </form> 
+    </body>
+</html>
